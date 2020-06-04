@@ -9,8 +9,8 @@ Steps to run the image :
 
 3. Make required changes in the file like changing the provider, project initials and other changes. 
 
-4. Run command <b>"Packer Validate 'filename.json'"</b>
+4. Run command <b>"Packer validate 'filename.json'"</b>
 
-5. Run command <b>"Packer Validate 'filename.json'"</b>.
+5. Run command <b>"Packer build 'filename.json'"</b>.
 
 Go to your cloud and check for cutsom images. 
