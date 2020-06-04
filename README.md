@@ -11,6 +11,6 @@ Steps to run the image :
 
 4. Run command <b>"Packer Validate 'filename.json'"</b>
 
-5. Run command <b>"Packer Validate 'filename.json'"<b/>.
+5. Run command <b>"Packer Validate 'filename.json'"</b>.
 
 Go to your cloud and check for cutsom images. 
