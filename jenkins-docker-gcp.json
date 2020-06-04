@@ -2,8 +2,8 @@
     "builders" : [
         {
             "type": "googlecompute",
-            "account_file" : "C:/Users/Dell/Downloads/helpterraform-62631737d386.json",
-            "project_id" : "helpterraform",
+            "account_file" : "Make a service account with compute admin and service admin and download and paste its account key path here ",
+            "project_id" : "Paste your project id here for which you want to create instance",
             "source_image" : "debian-9-stretch-v20200521",
             "ssh_username" : "packer",
             "zone" : "asia-east2-a"
