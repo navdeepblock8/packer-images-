@@ -1,0 +1,21 @@
+{
+    "builders" : [
+        {
+            "type": "googlecompute",
+            "account_file" : "PROJECT SERVICE FILE",
+            "project_id" : "YOUR_PROJECT_NAME",
+            "source_image" : "debian-9-stretch-v20200521",
+            "ssh_username" : "packer",
+            "zone" : "asia-east2-a",
+            "image_name" : "prometheus-grafana-image"
+        }
+    ],
+
+    "provisioners" :[
+        {
+            "type" : "shell",
+            "script" : "./scripts/prometheus-grafana.sh"
+        }
+    ]
+    
+}
