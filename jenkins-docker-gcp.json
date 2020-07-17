@@ -2,8 +2,8 @@
     "builders" : [
         {
             "type": "googlecompute",
-            "account_file" : "",
-            "project_id" : "helpterraform",
+            "account_file" : "YOUR_SERVICE_ACCOUNT_FILE",
+            "project_id" : "YOUR_PROJECT_ID",
             "source_image" : "debian-9-stretch-v20200521",
             "ssh_username" : "packer",
             "zone" : "asia-east2-a",
