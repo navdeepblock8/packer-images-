@@ -20,7 +20,7 @@
  sudo touch prometheus.yml
  sudo tee -a prometheus.yml > /dev/null <<EOT
   
- global:
+global:
   scrape_interval: 15s
 
 scrape_configs:
